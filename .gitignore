@@ -1,0 +1,49 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+/.settings
+/.project
+/bin
+*.log
+
+# Allure Report
+.allure/
+allure-results/
+history/
+
+
+# Mac
+.DS_Store
+/packages
+.metadata
+.recommenders
+
+# Maven
+log/
+target/
+app/
+
+
+#Environment
+*/src/main/resources/properties/environment.properties
+
+#Input Data
+*/src/main/resources/sample_files
+
+#Logging
+Log4j/
+
+
+
